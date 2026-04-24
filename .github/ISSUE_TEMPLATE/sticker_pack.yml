@@ -1,0 +1,23 @@
+name: Sticker pack contribution
+description: Propose or discuss a sticker pack.
+title: "[Pack]: "
+labels: ["sticker-pack"]
+body:
+  - type: input
+    id: pack_name
+    attributes:
+      label: Pack name
+    validations:
+      required: true
+  - type: textarea
+    id: license
+    attributes:
+      label: Asset license and source
+      description: Confirm the images can be distributed in this repository.
+    validations:
+      required: true
+  - type: textarea
+    id: contents
+    attributes:
+      label: Stickers and tags
+      description: List the sticker IDs, intended tags, and any cultural context needed.

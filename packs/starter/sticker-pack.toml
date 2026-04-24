@@ -1,0 +1,11 @@
+id = "starter"
+name = "Starter Pack"
+author = "terminal-stickers"
+license = "CC0-1.0"
+description = "A tiny sample pack used for local development and smoke tests."
+
+[[stickers]]
+id = "laugh"
+name = "Laugh"
+file = "stickers/laugh.ppm"
+tags = ["reaction", "funny", "brasil"]
